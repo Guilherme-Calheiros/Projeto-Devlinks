@@ -10,8 +10,8 @@ function switch_mode() {
 
     let image = document.getElementById("avatar");
     if (mode.classList.contains("light")){
-        image.setAttribute("src", "../assets/profile-light.png");
+        image.setAttribute('src', '../../assets/profile-light.png');
     } else {
-        image.setAttribute("src", "../assets/profile.png");
+        image.setAttribute('src', '../../assets/profile.png');
     }
 }
